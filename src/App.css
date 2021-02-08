@@ -2,16 +2,31 @@
   background-color: pink;
 }
 
-.purplebox {
-  background-color: purple;
+.mainheader {
+  background-color: #0a091a;
   color: white;
 }
 
 .footerbox {
-  background-color: lightskyblue;
+  background-color: #5b51e8;
 }
 
 .secondheader {
-  background-color: blue;
+  background-color: #9f99ec;
   color: white;
 }
+
+.homepage {
+  background-color: #696969;
+  color: white;
+}
+
+.main {
+  background-color: #000;
+  color: ivory;
+}
+
+
+
+
+
