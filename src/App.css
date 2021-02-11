@@ -1,15 +1,14 @@
-.pinkbox {
-  background-color: pink;
-}
 
-.jumbotron {
+.space {
   background-color: #0a091a;
-  color: white;
+  color: #463eb3;
+  padding: 30px;
+  margin: 0;
 }
 
 .Navbar {
   background-color: #0a091a;
-  color: white;
+  color: ;
 }
 
 .footerbox {
@@ -17,12 +16,12 @@
 }
 
 .secondheader {
-  background-color: #9f99ec;
+  background-color: pink;
   color: white;
 }
 
 .homepage {
-  background-color: #696969;
+  background-color: greenyellow;
   color: white;
 }
 

@@ -16,32 +16,38 @@ class Mainheader extends Component {
     render() {
 
         return (
-            <div className="mainheader container">
-               <Navbar dark sticky="top">
-                    <NavbarBrand href="/">KCVR</NavbarBrand>
-                    <Nav className="mr-auto" navbar>
-                        <NavItem>
-                        <NavLink href="">VR</NavLink>
-                        </NavItem>
-                        <NavItem>
-                        <NavLink href="">Coffee/Food</NavLink>
-                        </NavItem>
-                        <NavItem>
-                        <NavLink href="">Event Rental</NavLink>
-                        </NavItem>
-                        <NavItem>
-                        <NavLink href="">About Us</NavLink>
-                        </NavItem>
-                    </Nav>
-                </Navbar>
-                <Jumbotron fluid className="container jumbotron">
+            <React.Fragment>
+                <Jumbotron className="container-fluid space">
                     <div className="row">
-                        <h1>Kansas City Virtual Reality Cafe</h1>
+                        <div className="col">
+                            <Navbar dark sticky="top" expand="md" className="space">
+                                <NavbarBrand href="/">KCVR</NavbarBrand>
+                                <Nav className="" navbar>
+                                    <NavItem className="">
+                                    <NavLink href="">VR</NavLink>
+                                    </NavItem>
+                                    <NavItem>
+                                    <NavLink href="">Coffee/Food</NavLink>
+                                    </NavItem>
+                                    <NavItem>
+                                    <NavLink href="">Event Rental</NavLink>
+                                    </NavItem>
+                                    <NavItem>
+                                    <NavLink href="">About Us</NavLink>
+                                    </NavItem>
+                                </Nav>
+                            </Navbar>
+                        </div>
+                    </div>
+                    
+                    <div className="row space">
+                        <div className="col">
+                            <h1>Kansas City Virtual Reality Cafe</h1>
                             
-                        
+                        </div>
                     </div>
                 </Jumbotron> 
-            </div>
+            </React.Fragment>
         );
     }
 }
