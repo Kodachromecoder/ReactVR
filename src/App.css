@@ -2,7 +2,12 @@
   background-color: pink;
 }
 
-.mainheader {
+.jumbotron {
+  background-color: #0a091a;
+  color: white;
+}
+
+.Navbar {
   background-color: #0a091a;
   color: white;
 }

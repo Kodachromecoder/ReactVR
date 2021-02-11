@@ -17,8 +17,10 @@ class Main extends Component {
         return (
             <div className="main">
                 <Switch>
-                <h1>THis is the switch. Located in the Main component.</h1>
                 <Route path='/home' component={HomePage} />
+{/*               <Route exact path='/' component={} /> */}
+{/*               <Route exact path='/' component={} /> */}
+ {/*               <Route exact path='/' component={} /> */}
                 <Redirect to='/home' />
                 </Switch>
                 <Footer />

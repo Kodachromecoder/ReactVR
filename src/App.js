@@ -8,7 +8,6 @@ function App() {
   return (
     <BrowserRouter>
       <div >
-        <h1 className="pinkbox">I'm your pink box from the App component</h1>
         <Main />
       </div>
     </BrowserRouter>
