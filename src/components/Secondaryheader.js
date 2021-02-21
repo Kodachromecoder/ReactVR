@@ -1,5 +1,13 @@
 import React, { Component } from 'react';
-
+import {
+    Collapse,
+    Navbar,
+    NavbarToggler,
+    NavbarBrand,
+    Nav,
+    NavItem,
+    NavLink, Jumbotron,
+  } from 'reactstrap';
 
 
 class Secondaryheader extends Component {
