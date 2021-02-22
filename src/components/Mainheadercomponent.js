@@ -3,6 +3,7 @@ import {Collapse, Navbar, NavbarToggler, NavbarBrand, Nav, NavItem,
     NavLink, Jumbotron,
   } from 'reactstrap';
 import indeximage from '../images/indeximage.jpg';
+import {NavLink } from 'react-router-dom';
 
 
 class Mainheader extends Component {
