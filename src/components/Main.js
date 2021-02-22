@@ -3,7 +3,7 @@ import { Switch, Route, Redirect } from 'react-router-dom';
 import Footer from './Footer';
 import Home from './Home';
 import Gamecards from './Gamecards';
-
+import Menu from './Menuitem';
 
 
 class Main extends Component {
@@ -15,14 +15,26 @@ class Main extends Component {
             );
         };
 
+        const VRPage = () => {
+            return (
+                <Gamecards />
+            );
+        };
+
+        const Menu = () => {
+            return (
+                <Menu />
+            );
+        };
+
         return (
             <div className="main">
                 <Switch>
                 <Route path='/home' component={HomePage} />
-                <Route exact path='/VR' component={Gamecards} />
-                {/* Example: <Route exact path='/contactus' component={Contact} /> */}
-{/*               <Route exact path='/' component={} /> */}
- {/*               <Route exact path='/' component={} /> */}
+                <Route exact path='/VR' component={VRPage} />
+                <Route exact path='/coffeefood' component={Menu} />
+ {/*            <Route exact path='/event' component={} /> */}
+ {/*             <Route exact path='/aboutus' component={} /> */}
                 <Redirect to='/home' />
                 </Switch>
                 <Footer />

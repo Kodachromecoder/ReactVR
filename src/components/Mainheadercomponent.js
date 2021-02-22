@@ -1,14 +1,8 @@
 import React, { Component } from 'react';
-import {
-    Collapse,
-    Navbar,
-    NavbarToggler,
-    NavbarBrand,
-    Nav,
-    NavItem,
+import {Collapse, Navbar, NavbarToggler, NavbarBrand, Nav, NavItem,
     NavLink, Jumbotron,
   } from 'reactstrap';
-
+import indeximage from '../images/indeximage.jpg';
 
 
 class Mainheader extends Component {
@@ -18,23 +12,23 @@ class Mainheader extends Component {
         return (
             <React.Fragment>
                 <Navbar dark sticky="top" expand="md" className="space">
-                    <NavbarBrand href="/">KCVR</NavbarBrand>
+                    <NavbarBrand to="/home">KCVR</NavbarBrand>
                     <Nav className="" navbar>
                         <NavItem className="">
-                        <NavLink href="">VR</NavLink>
+                            <NavLink to="/VR">VR</NavLink>
                         </NavItem>
                         <NavItem>
-                        <NavLink href="">Coffee/Food</NavLink>
+                            <NavLink to="/coffeefood">Coffee/Food</NavLink>
                         </NavItem>
                         <NavItem>
-                        <NavLink href="">Event Rental</NavLink>
+                            <NavLink to="/event">Event Rental</NavLink>
                         </NavItem>
                         <NavItem>
-                        <NavLink href="">About Us</NavLink>
+                            <NavLink to="/aboutus">About Us</NavLink>
                         </NavItem>
                     </Nav>
                 </Navbar>
-                <Jumbotron fluid className="jumbo">
+                <Jumbotron style={{ backgroundImage: `url(${indeximage})`, backgroundSize: 'cover' }} fluid className="jumbo">
                         <h1 >Kansas City Virtual Reality Cafe</h1>
                 </Jumbotron> 
             </React.Fragment>

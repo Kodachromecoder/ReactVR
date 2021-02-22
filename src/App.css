@@ -11,15 +11,18 @@ body {
 
 .jumbo {
   background-color:#0a091a !important; 
-    height: 90vh;
-    margin-bottom: 0px;
-    padding-bottom: 20%;
+  height: 90vh;
+  margin-bottom: 0px;
+  background-color: #0a091a;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 
 .Navbar {
   background-color: #0a091a;
-  color: ;
+  color: white;
 }
 
 .footerbox {
@@ -27,28 +30,28 @@ body {
 }
 
 .secondheader {
-  background-color: pink;
+  background-color: #0a091a;
   color: white;
 }
 
 .homepage {
-  background-color: greenyellow;
   color: white;
 }
 
 .main {
-  background-color: red;
+ 
   color: ivory;
 }
 
 .photo {
-  height: 500px;
-  background-color: #5b51e8;
+  
+  
 }
 
 .responsive-image {
-  width: auto; 
-  max-height: 100%;
+  height: 100%;
+  object-fit: contain;
+  margin: 0px;
 }
 
 .text {
@@ -57,7 +60,20 @@ body {
   color: #0a091a;
 }
 
+.headsets {
+  color: #0a091a;
+  
+  background-color: #0a091a;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-bottom: 0px;
+  padding-bottom: 20%;
+}
 
+.white {
+  color: white !important;
+}
 
 
 

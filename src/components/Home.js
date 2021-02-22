@@ -40,7 +40,7 @@ class Home extends Component {
                             <p>I was hooked on VR the moment I put my first VR headset on and I think you will be too! Check out how we started, our vision, our location and all the rest.</p>
                         </div>
                     </div>
-                    <div className="row photo">
+                    <div className="row mb-5 photo">
                         <div className="col">
                             <img className="responsive-image img-fluid" src="/GirlHeadset.jpg" alt="Young girl wearing a virtual reality headset"></img>
                         </div>

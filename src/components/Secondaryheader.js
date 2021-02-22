@@ -6,14 +6,14 @@ import {
     NavbarBrand,
     Nav,
     NavItem,
-    NavLink, Jumbotron,
+    NavLink, Jumbotron, Container
   } from 'reactstrap';
 
 
 class Secondaryheader extends Component {
     render() {
         return (
-            <div className="secondheader">
+            <div className="">
                 <Navbar dark sticky="top" expand="md" className="space">
                     <NavbarBrand href="/">KCVR</NavbarBrand>
                     <Nav className="" navbar>
@@ -31,6 +31,11 @@ class Secondaryheader extends Component {
                         </NavItem>
                     </Nav>
                 </Navbar>
+                <Jumbotron fluid>
+                    <Container fluid>
+                        <h1 className="headsets">Page Title</h1>
+                    </Container>
+                </Jumbotron>
             </div>
         );
     }
