@@ -22,13 +22,13 @@ export const GAMES = [
         name:"Sports Scramble",
         image: "/",
         description: "Play your favorite sports but with a wacky twist! Try tennis with a golf club or baseball with an ice hockey stick! Or roll your bowling ball through a field of wack-a-moles. It's hilarous fun for all ages."
-    }
+    },
     {
         id: 4,
         name:"Racket NX",
         image: "/",
         description: "Need some exercise? Try this fast paced spin on racketball. "
-    }
+    },
     {
         id: 5,
         name:"Elven Assassin",

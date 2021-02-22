@@ -7,6 +7,10 @@ import Menu from './Menuitem';
 
 
 class Main extends Component {
+    constructor(props) {
+        super(props);
+    }
+    
     render() {
 
         const HomePage = () => {
