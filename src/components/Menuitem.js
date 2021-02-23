@@ -19,27 +19,27 @@ class Menu extends Component {
     };
     
     render() {
-        const drinkMenu = this.state.drink.map(drink => {
-            return (
-                <div key={drink.id} className="col">
-                    <Card>
-                        <CardImg top width="100%" src={drink.image} alt={drink.name} />
-                        <CardBody>
-                            <CardTitle tag="h5">{drink.name}</CardTitle>
-                            <CardText>{drink.description}</CardText>
-                        </CardBody>
-                    </Card>
-                </div>
-            );
-        });
+        // const drinkMenu = this.state.drink.map(drink => {
+        //     return (
+        //         <div key={drink.id} className="col">
+        //             <Card>
+        //                 <CardImg top width="100%" src={drink.image} alt={drink.name} />
+        //                 <CardBody>
+        //                     <CardTitle tag="h5">{drink.name}</CardTitle>
+        //                     <CardText>{drink.description}</CardText>
+        //                 </CardBody>
+        //             </Card>
+        //         </div>
+        //     );
+        // });
 
         return (
-            <div className="menuitem">
+            <div className="container">
+                <div className="row">
                 <Secondaryheader />
-                <div className="container">
-                    <div className="row">
-                        {drinkMenu}
-                    </div>
+                </div>
+                <div className="row">
+                    {/* {drinkMenu} */}
                 </div>
             </div>
         );

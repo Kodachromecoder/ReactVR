@@ -39,19 +39,14 @@ body {
 }
 
 .main {
- 
   color: ivory;
 }
 
-.photo {
-  
-  
-}
 
 .responsive-image {
-  height: 100%;
-  object-fit: contain;
-  margin: 0px;
+  width: 100%;
+  object-fit: cover;
+  margin: 10px 0;
 }
 
 .text {
@@ -61,14 +56,9 @@ body {
 }
 
 .headsets {
-  color: #0a091a;
-  
-  background-color: #0a091a;
-  background-size: contain;
-  background-position: center;
-  background-repeat: no-repeat;
+  color: white;
+  background-color: #0a091a !important;
   margin-bottom: 0px;
-  padding-bottom: 20%;
 }
 
 .white {
