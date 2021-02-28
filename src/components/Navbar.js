@@ -23,32 +23,34 @@ class MainNavbar extends Component {
 
     render() {
         return (
-            <Navbar dark sticky="top" expand="md">
-            <div className="container">
-                <NavbarBrand className="mr-auto" href="/home">KCVR</NavbarBrand>
-                <NavbarToggler onClick={this.toggleNav} />
+           
+            <Navbar className="navbar" dark sticky="top" expand="lg">
+            
+                <NavbarBrand className="mr-auto nav-link" href="/home">KCVR</NavbarBrand>
+                <NavbarToggler className="mr-5" onClick={this.toggleNav} />
                 <Collapse isOpen={this.state.isNavOpen} navbar>
-                    <Nav navbar>
+                    <Nav navbar className="justify-content-end text-right mt-0">
                         <NavItem>
                             <NavLink className="nav-link" to="/home">Home
                             </NavLink>
                         </NavItem>
                         <NavItem>
-                            <NavLink className="nav-link" to="/directory">Directory
+                            <NavLink className="nav-link" to="/VR">VR
                             </NavLink>
                         </NavItem>
                         <NavItem>
-                            <NavLink className="nav-link" to="/aboutus">About
+                            <NavLink className="nav-link" to="/">Food/Drink
                             </NavLink>
                         </NavItem>
                         <NavItem>
-                            <NavLink className="nav-link" to="/contactus">Contact Us
+                            <NavLink className="nav-link" to="/">Event Rental
                             </NavLink>
                         </NavItem>
                     </Nav>
                 </Collapse>
-            </div>
-        </Navbar>   
+        
+        </Navbar> 
+        
         );
     }
 }

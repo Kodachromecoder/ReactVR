@@ -10,13 +10,13 @@ class Footer extends Component {
         return (
             <Container fluid={true} className="footerbox">
                 <Row style={{ backgroundImage: `url(${darkheadset})`, backgroundSize: 'contain' }}>
-                    <Col>
+                    <Col sm="12" md={{ size: 6, offset: 3 }}>
                     <h3>Follow Us</h3>
                         <a className="btn btn-social-icon btn-instagram" href="http://instagram.com/"><i className="fa fa-instagram" /></a>
                         <a className="btn btn-social-icon btn-facebook" href="http://www.facebook.com/"><i className="fa fa-facebook" /></a>
                         <a className="btn btn-social-icon btn-twitter" href="http://twitter.com/"><i className="fa fa-twitter" /></a>
                     </Col>
-                    <Col>
+                    <Col sm="12" md={{ size: 6, offset: 3 }}>
                         <ul className="list-unstyled">
                             <li><Link  className="white" to="/home">Home</Link></li>
                             <li><Link className="white" to="/VR">VR</Link></li>

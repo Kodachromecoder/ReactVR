@@ -4,7 +4,7 @@ import Footer from './Footer';
 import Home from './Home';
 import Gamecards from './Gamecards';
 import Menu from './Menuitem';
-
+import MainNavbar from './Navbar';
 
 class Main extends Component {
     constructor(props) {
@@ -33,6 +33,7 @@ class Main extends Component {
 
         return (
             <div className="main">
+                <MainNavbar />
                 <Switch>
                 <Route path='/home' component={HomePage} />
                 <Route exact path='/VR' component={VRPage} />
